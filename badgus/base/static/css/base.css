@@ -272,3 +272,9 @@ a.tag .count:after { content: ")"; }
 table.keys tr.disabled td.description span { text-decoration: line-through; }
 
 footer { padding-top: 15px; padding-bottom: 15px; border-top: 1px solid #ccc; }
+.persona-button{
+    margin-top: 5%;
+}
+.persona-button:hover{
+    color: white;
+}
