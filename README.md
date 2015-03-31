@@ -28,7 +28,7 @@ Here's how I get it running on my MacBook:
     . ./virtualenv/bin/activate
     pip install -r requirements/dev.txt
     # Set up a mysql database
-    # Edit badgus/settings/local.py
+    # Edit badgus/settings/local.py-dist and move it to local.py
     # change db credentials and add HMAC_KEYS
     ./manage.py syncdb
     ./manage.py migrate
